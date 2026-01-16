@@ -1,0 +1,138 @@
+/* This is your style file */
+
+/* Make the background light and font nice */
+body {
+    background-color: #fdf6f0;   /* light cream color */
+    font-family: Arial, sans-serif;  /* nice simple font */
+    text-align: center;           /* center everything */
+}
+
+/* Style the main heading */
+h1 {
+    color: #ff7f50;  /* coral/orange color */
+}
+
+/* Style paragraphs */
+p {
+    font-size: 18px;
+    color: #333333;  /* dark gray text */
+}
+
+/* Style the menu */
+nav {
+    background-color: #333333;  /* dark background */
+    padding: 10px;
+}
+
+nav a {
+    color: white;               /* white text for links */
+    margin: 15px;               /* space between links */
+    text-decoration: none;      /* remove underline */
+    font-weight: bold;
+}
+
+/* When you hover over a link */
+nav a:hover {
+    background-color: #ff7f50;  /* coral background */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/* Style image boxes */
+section div {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff0e6; /* light cream background */
+    border-radius: 10px;
+}
+/* Menu hover effect */
+nav a:hover {
+    background-color: #ff7f50; /* coral/orange */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+section div img {
+    border-radius: 10px; /* rounded corners */
+    transition: transform 0.3s; /* smooth effect when hovered */
+}
+
+section div img:hover {
+    transform: scale(1.1); /* zoom image slightly on hover */
+}
+/* --- Contact Page Styles --- */
+
+/* Style sections */
+section {
+    background-color: #fff5e6;  /* soft cream color */
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+/* Section headings */
+section h2 {
+    color: #ff7f50;  /* coral/orange color */
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Social media links */
+section a {
+    color: #ff7f50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+    color: #d9553f; /* darker coral on hover */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+form input[type="submit"] {
+    background-color: #ff7f50;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #d9553f;
+}
+
